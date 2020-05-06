@@ -13,7 +13,8 @@ print(x)
 
 # Using y, change x so that it is [1, 2, 3, 4, 8, 9, 10]
 # YOUR CODE HERE
-x.append(y)
+for i in y:
+    x.append(i)
 print(x)
 
 # Change x so that it is [1, 2, 3, 4, 9, 10]
@@ -23,6 +24,7 @@ print(x)
 
 # Change x so that it is [1, 2, 3, 4, 9, 99, 10]
 # YOUR CODE HERE
+x.insert(5, 99)
 print(x)
 # Print the length of list x
 # YOUR CODE HERE
