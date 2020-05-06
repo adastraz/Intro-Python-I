@@ -13,5 +13,6 @@ z = "I like turtles!"
 # x is 10, y is 2.25, z is "I like turtles!"
 
 # Use the 'format' string method to print the same thing
-
+print('x is', str(x) + ', y is', str(y) + ', and z is', z)
 # Finally, print the same thing using an f-string
+print('x is {0:2d}, y is {1:3.2f}, and z is {2:s}'.format(x, y, z))
